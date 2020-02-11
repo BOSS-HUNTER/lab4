@@ -4,8 +4,8 @@ language: "minimal"
 services:
   - docker
 env:
-  - DOCKER_IMAGE="toliak/bootstrap-cpp"
-
+  #- DOCKER_IMAGE="toliak/bootstrap-cpp"
+  - DOCKER_IMAGE="ubuntu"
 before_script:
   #- docker pull $DOCKER_IMAGE
   - docker pull ubuntu
