@@ -7,7 +7,8 @@ env:
   - DOCKER_IMAGE="toliak/bootstrap-cpp"
 
 before_script:
-  - docker pull $DOCKER_IMAGE
+  #- docker pull $DOCKER_IMAGE
+  - docker pull ubuntu
   - chmod +x -R ./scripts
 
 jobs:
